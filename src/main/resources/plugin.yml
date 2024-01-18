@@ -1,0 +1,11 @@
+name: HelperPlugin
+version: '${project.version}'
+main: org.crewco.helperplugin.HelperPlugin
+description: "A Helper plugin for school smp"
+author: "XST99"
+
+commands:
+  freeze:
+    description: "Testing"
+    usage: /freeze <player>
+    permission: "smp.freeze"

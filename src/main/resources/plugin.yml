@@ -9,3 +9,6 @@ commands:
     description: "Testing"
     usage: /freeze <player>
     permission: "smp.freeze"
+  reloadconfig:
+    description: Reload recipes command
+    usage: /reloadconfig

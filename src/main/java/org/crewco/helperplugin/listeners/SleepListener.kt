@@ -18,6 +18,12 @@ class SleepListener : Listener {
         checkSleep(bed.world,player)
     }
 
+    @EventHandler
+    fun onPlayerBedLeave(e: PlayerBedLeaveEvent){
+        val player = e.player
+        player.bedSpawnLocation = player.location
+    }
+
     private fun isInNether(worldName: String): Boolean {
         return worldName.equals("world_nether", ignoreCase = true) // Adjust world name as needed
     }

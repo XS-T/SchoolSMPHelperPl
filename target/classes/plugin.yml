@@ -1,0 +1,14 @@
+name: HelperPlugin
+version: '1.0'
+main: org.crewco.helperplugin.HelperPlugin
+description: "A Helper plugin for school smp"
+author: "XST99"
+
+commands:
+  freeze:
+    description: "Testing"
+    usage: /freeze <player>
+    permission: "smp.freeze"
+  reloadconfig:
+    description: Reload recipes command
+    usage: /reloadconfig
